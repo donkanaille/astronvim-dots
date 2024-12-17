@@ -13,14 +13,14 @@ return {
     -- change colorscheme
     colorscheme = "mellifluous",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
-    highlights = {
-      init = { -- this table overrides highlights in all themes
+    -- highlights = {
+    --  init = { -- this table overrides highlights in all themes
         -- Normal = { bg = "#000000" },
-      },
-      mellifluous = { -- a table of overrides/changes when applying the astrotheme theme
+    --  },
+    --  mellifluous = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
-      },
-    },
+    --  },
+    --},
     -- Icons can be configured throughout the interface
     icons = {
       -- configure the loading of the lsp in the status line
